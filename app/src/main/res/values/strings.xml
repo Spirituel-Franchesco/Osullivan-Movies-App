@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Osullivan Movies App</string>
+    <string name="question1">Qui est le premier à se transformer en super saiyan dans DB Z ?</string>
+    <string name="question2">Quel est le nom du fils de Vegeta ?</string>
+    <string name="question3">Quel est le prenom de la femme de Naruto Uzumaki ?</string>
+    <string name="question4">Qui est le créateur de Naruto Shippuden ?</string>
+    <string name="question5">Quelle pupille est considérée comme la pupille rèflet de l\'ame ?</string>
+    <string name="Q1R1">Son Goku</string>
+    <string name="Q1R2">Vegeta</string>
+    <string name="Q1R3">Son Gohan</string>
+    <string name="Q1R4">Broly</string>
+    <string name="Q1RC">Son Goku</string>
+    <string name="Q2R1">Pamu</string>
+    <string name="Q2R2">Gon</string>
+    <string name="Q2R3">Trunks</string>
+    <string name="Q2R4">Leolio</string>
+    <string name="Q2RC">Trunks</string>
+    <string name="Q3R1">Sakura</string>
+    <string name="Q3R2">Ino</string>
+    <string name="Q3R3">Tenten</string>
+    <string name="Q3R4">Hinata</string>
+    <string name="Q3RC">Hinata</string>
+    <string name="Q4R1">Togashi</string>
+    <string name="Q4R2">Kurumada</string>
+    <string name="Q4R3">Kishimoto</string>
+    <string name="Q4R4">Oda</string>
+    <string name="Q4RC">Kishimoto</string>
+    <string name="Q5R1">Rinnegan</string>
+    <string name="Q5R2">Byakugan</string>
+    <string name="Q5R3">Sharingan</string>
+    <string name="Q5R4">Rinne-Sharingan</string>
+    <string name="Q5RC">Sharingan</string>
 </resources>
