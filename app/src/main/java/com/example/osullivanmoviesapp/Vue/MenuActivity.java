@@ -33,5 +33,18 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        btnContact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MenuActivity.this, ContactActivity.class);
+                startActivity(i);
+            }
+        });
+        btnExploreMovies.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+            }
+        });
     }
 }

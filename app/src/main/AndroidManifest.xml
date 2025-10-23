@@ -4,6 +4,10 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <application
         android:allowBackup="true"
@@ -15,6 +19,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OsullivanMoviesApp"
         tools:targetApi="31">
+        <activity
+            android:name=".Vue.MovieDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Vue.MoviesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Vue.ContactActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD7IWHYmx-lZeOt_ma59k1Z-aoWds2f2S8" />
+
         <activity
             android:name=".Vue.QuizActivity"
             android:exported="false" />
