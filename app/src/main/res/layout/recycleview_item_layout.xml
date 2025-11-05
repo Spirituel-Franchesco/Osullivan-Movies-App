@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginLeft="5sp"
+    android:layout_marginTop="5sp"
+    android:layout_marginRight="5sp"
+    android:layout_marginBottom="5sp"
+    android:background="@color/black"
+    android:backgroundTint="#E4DADA"
+    app:cardBackgroundColor="#DAE2E6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        android:padding="1dp"
+        android:backgroundTint="@color/black"
+        >
+
+
+        <ImageView
+            android:id="@+id/movieImage"
+            android:layout_width="98dp"
+            android:layout_height="123dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="295dp"
+            android:layout_marginBottom="500dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/movieTitle"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="132dp"
+            android:layout_marginRight="280dp"
+            android:text="Titre du film"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="91dp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
