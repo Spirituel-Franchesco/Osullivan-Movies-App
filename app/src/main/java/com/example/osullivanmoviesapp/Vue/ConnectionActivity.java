@@ -69,42 +69,6 @@ public class ConnectionActivity extends AppCompatActivity {
             }
         });
 
-//        Loginbtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                String name = edNameLogin.getText().toString();
-//                String password = edPasswordLogin.getText().toString();
-//
-//                String savedName = prefs.getString("name", "");
-//                String savedPassword = prefs.getString("password", "");
-//
-//                if (name.equals(savedName) && password.equals(savedPassword)) {
-//                    Toast.makeText(ConnectionActivity.this, "Connexion réussie !", Toast.LENGTH_SHORT).show();
-//
-////                    Intent i = new Intent(ConnectionActivity.this, MenuActivity.class);
-////                    startActivity(i);
-////                    finish();
-//
-//                    // Afficher la pub si elle est prête
-//                    if (mInterstitialAd != null) {
-//                        mInterstitialAd.show(ConnectionActivity.this);
-//                    } else {
-//                        // Si la pub n’est pas encore prête, aller directement au menu
-//                        goToMenu();
-//                    }
-//                }
-//                else if (!savedName.equals(name) && savedPassword.equals(password))
-//                {
-//                    Toast.makeText(ConnectionActivity.this, "User introuvable", Toast.LENGTH_LONG).show();
-//                }
-//                else
-//                {
-//                    Toast.makeText(ConnectionActivity.this, "User et/ou password incorrect", Toast.LENGTH_LONG).show();
-//                }
-//            }
-//        });
-
         Loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "725857176704",
+    "project_id": "osullivan-movies-app-1bb76",
+    "storage_bucket": "osullivan-movies-app-1bb76.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725857176704:android:a34de5e73c3317fdb0aa65",
+        "android_client_info": {
+          "package_name": "com.example.osullivanmoviesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjKoMAIgboV4Up8WFdbQ6qcyfdrkMjH1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
