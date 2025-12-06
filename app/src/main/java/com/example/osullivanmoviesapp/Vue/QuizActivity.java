@@ -35,16 +35,17 @@ public class QuizActivity extends AppCompatActivity {
             new Question(R.string.question5, R.string.Q5R1, R.string.Q5R2, R.string.Q5R3, R.string.Q5R4, R.string.Q5RC),
     };
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
 
         questionTextView = findViewById(R.id.questionTextView);
-        button1 = findViewById(R.id.button1);
-        button2 = findViewById(R.id.button2);
-        button3 = findViewById(R.id.btnQuiz);
-        button4 = findViewById(R.id.btnContact);
+        button1 = findViewById(R.id.btnQuiz1);
+        button2 = findViewById(R.id.btnQuiz2);
+        button3 = findViewById(R.id.btnQuiz3);
+        button4 = findViewById(R.id.btnQuiz4);
         prev_button = findViewById(R.id.prevButton);
         next_button = findViewById(R.id.nextButton);
         progressBar = findViewById(R.id.progressBar);

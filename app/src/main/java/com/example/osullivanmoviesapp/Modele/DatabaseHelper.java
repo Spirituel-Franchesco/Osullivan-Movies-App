@@ -100,4 +100,17 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
         return name;
     }
+
+    /**
+     * Valide le format du username selon la REGEX demandée
+     * Accepte seulement : lettres (a-z, A-Z), chiffres (0-9) et tirets (-)
+     * @param username Le nom d'utilisateur à valider
+     * @return true si valide, false sinon
+     */
+    public static boolean isValidUsername(String username) {
+        if (username == null || username.isEmpty()) {
+            return false;
+        }
+        return username.matches("^[a-zA-Z0-9-]+$");
+    }
 }

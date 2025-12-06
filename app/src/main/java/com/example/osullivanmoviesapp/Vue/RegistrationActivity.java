@@ -46,6 +46,12 @@ public class RegistrationActivity extends AppCompatActivity {
                     return;
                 }
 
+                // VALIDATION REGEX DU USERNAME
+                if (!DatabaseHelper.isValidUsername(name)) {
+                    Toast.makeText(RegistrationActivity.this, "Le nom d'utilisateur ne peut contenir que des lettres, chiffres et tirets", Toast.LENGTH_LONG).show();
+                    return;
+                }
+
                 DatabaseHelper dbHelper = new DatabaseHelper(RegistrationActivity.this);
 
                 boolean success = dbHelper.registerUser(name, email, password);
